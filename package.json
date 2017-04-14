@@ -1,0 +1,14 @@
+{
+  "name": "timestamp",
+  "version": "1.0.0",
+  "description": "timestamp microservice app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "bararan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
