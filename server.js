@@ -7,6 +7,7 @@ app.set('port', (process.env.PORT || 5000));
 app.use(express.static(__dirname + '/views'));
 
 app.get("/", function(req, res) {
+    console.log(req.headers)
     res.render();
 });
 
