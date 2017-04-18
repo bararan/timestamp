@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Timestamp Microservice</title>
+        <style>
+            body {
+                font-family: sans-serif;
+            }
+            
+            h1 {
+                font-weight: bold;
+            }
+            div a {
+                text-decoration: none;
+                color: indigo;
+                font-weight: bold;
+            }
+            code{
+                background: lightsteelgrey;
+            }
+            code a {
+                text-decoration: none;
+                color: #000;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Welcome to Timestamp Microservice</h1>
+        <div>Please append a human readable date or <a href="https://en.wikipedia.org/wiki/Unix_time" target="_blank">UNIX Timestamp</a> of the address of this page to use this app.</div>
+        <div>If the timestamp you entered is valid you'll get a response including both versions of the timestamp you entered.</div>
+        </br>
+        <h2>Example use:</h2>
+        <code><a href="http://fcc-basejump-bararan.c9users.io/22 oct 2012">http://fcc-basejump-bararan.c9users.io/22 oct 2012</a></code>
+        <h3>and</h3>
+        <code><a href ="http://fcc-basejump-bararan.c9users.io/1350864000">http://fcc-basejump-bararan.c9users.io/1350864000</a></code>
+        <h3>produce the following output:</h3>
+        <code>
+            {
+                "unix": 1350864000,
+                "natural": "Mon Jul 25 1983"
+            }
+        </code>
+        
+    </body>
+</html>
